@@ -10,5 +10,6 @@
 |[Wearable Backpacks](https://www.curseforge.com/minecraft/mc-mods/wearable-backpacks)|20%|Successfully registered and rendered the backpack as a normal, non-functional in-game block and item. You can place, break, craft and drop it.|
 
 #### Setup:
+* Install a preferred IDE and a Java Development Kit (JDK) for Java 8 or Java 11: https://adoptopenjdk.net/.
 * Fabric mod development environment setup instructions can be found here: https://fabricmc.net/wiki/tutorial:setup.
 ###### Personal note: the onsite tutorials are helpful but also outdated and scuffed. I might consider writing my own guide and posting on Github Pages to document my journey.
