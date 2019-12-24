@@ -7,7 +7,7 @@
 
 |Mod|Progress|Task Update|
 |---|--------|------|
-|[Wearable Backpacks](https://www.curseforge.com/minecraft/mc-mods/wearable-backpacks)|20%|Successfully registered and rendered the backpack as a normal, non-functional in-game block and item.|
+|[Wearable Backpacks](https://www.curseforge.com/minecraft/mc-mods/wearable-backpacks)|20%|Successfully registered and rendered the backpack as a normal, non-functional in-game block and item. You can place, break, craft and drop it.|
 
 #### Setup:
 * Fabric mod development environment setup instructions can be found here: https://fabricmc.net/wiki/tutorial:setup.
