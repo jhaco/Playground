@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "id": "playground",
+  "version": "${version}",
+
+  "name": "Playground",
+  "description": "Implements features from old mods into one large fiesta.",
+  "authors": [
+    "Jhaco"
+  ],
+  "contact": {
+    "homepage": "https://jhaco.github.io",
+    "sources": "https://github.com/jhaco/Playground"
+  },
+
+  "license": "CC0-1.0",
+  "icon": "assets/playground/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "net.playground.Playground"
+    ]
+  },
+  "mixins": [
+    
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.7.2",
+    "fabric": "*",
+    "minecraft": "1.15.x"
+  },
+  "suggests": {
+    "flamingo": "*"
+  }
+}

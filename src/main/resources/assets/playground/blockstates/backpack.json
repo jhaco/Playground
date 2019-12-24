@@ -1,0 +1,5 @@
+{
+	"variants": {
+        "": { "model": "playground:block/backpack" }
+	}
+}
