@@ -17,6 +17,6 @@
 ---
 
 Version 1.0:
-> Refactored code into separate responsible packages. \
-> Registered/rendered the backpack as a non-functional, but craftable block. It's a blue backpack. \
+> Refactored code into separate responsible packages to be initialized by main. \
+> Registered/rendered the backpack as a non-functional, but craftable block. It's a blue backpack! \
 > Initial Fabric mod environment setup.
