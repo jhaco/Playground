@@ -19,7 +19,7 @@
 Version 1.1:
 > Refactored code for server and client-side mod intializations. \
 > Backpack is now multi-directional; the block faces in different directions. Backpack is also brown. \
-> Implemented backpack inventory (no GUI); blocks that interact with storage can push items to and from the backpack.
+> Added backpack inventory (no GUI); blocks that interact with storage can push items to and from the backpack.
 
 Version 1.0:
 > Refactored code into separate responsible packages to be initialized by main. \
