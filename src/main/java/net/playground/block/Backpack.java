@@ -1,9 +1,6 @@
 package net.playground.block;
 
-import java.util.Random;
-
 import net.fabricmc.fabric.api.container.ContainerProviderRegistry;
-import net.minecraft.block.BarrelBlock;
 import net.minecraft.block.Block;
 import net.minecraft.block.BlockEntityProvider;
 import net.minecraft.block.BlockState;
@@ -13,10 +10,7 @@ import net.minecraft.entity.EntityContext;
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.inventory.Inventory;
 import net.minecraft.item.ItemPlacementContext;
-import net.minecraft.server.world.ServerWorld;
-import net.minecraft.stat.Stats;
 import net.minecraft.state.StateManager;
-import net.minecraft.state.property.BooleanProperty;
 import net.minecraft.state.property.Properties;
 import net.minecraft.util.ActionResult;
 import net.minecraft.util.Hand;
@@ -32,7 +26,6 @@ import net.playground.Playground;
 import net.playground.block.entity.BackpackEntity;
 
 public class Backpack extends HorizontalFacingBlock implements BlockEntityProvider {
-	public static final BooleanProperty OPEN = BarrelBlock.OPEN;
 
 	public Backpack(Settings settings) {
 		super(settings);
@@ -68,17 +61,16 @@ public class Backpack extends HorizontalFacingBlock implements BlockEntityProvid
  
 	public BlockState getPlacementState(ItemPlacementContext ctx) {
 		return (BlockState)this.getDefaultState().with(FACING, ctx.getPlayerFacing());
-	}
-
-	public void onBlockRemoved(BlockState state_1, World world, BlockPos pos, BlockState state_2, boolean bool) {
-        if (state_1.getBlock() != state_2.getBlock()) {
-            BlockEntity blockEntity_1 = world.getBlockEntity(pos);
-            if (blockEntity_1 instanceof Inventory) {
-                ItemScatterer.spawn(world, pos, (Inventory) blockEntity_1);
+    }
+    
+	public void onBlockRemoved(BlockState state, World world, BlockPos pos, BlockState newState, boolean bool) {
+        if (state.getBlock() != newState.getBlock()) {
+            BlockEntity blockEntity = world.getBlockEntity(pos);
+            if (blockEntity instanceof Inventory) {
+                ItemScatterer.spawn(world, pos, (Inventory) blockEntity);
                 world.updateHorizontalAdjacent(pos, this);
             }
-
-            super.onBlockRemoved(state_1, world, pos, state_2, bool);
+            super.onBlockRemoved(state, world, pos, newState, bool);
         }
     }
 
@@ -91,28 +83,11 @@ public class Backpack extends HorizontalFacingBlock implements BlockEntityProvid
                 BlockEntity blockEntity = world.getBlockEntity(pos);
                 if (blockEntity instanceof BackpackEntity) {
 					ContainerProviderRegistry.INSTANCE.openContainer(Playground.id("backpack"), player, (buf)->{buf.writeBlockPos(pos);});
-                    player.incrementStat(Stats.OPEN_BARREL);
                 }
             }
-
             return ActionResult.SUCCESS;
         }
     }
-
-    @Override
-    public void scheduledTick(BlockState state, ServerWorld world, BlockPos pos, Random random) {
-        BlockEntity e = world.getBlockEntity(pos);
-        if(e instanceof BackpackEntity){
-            BackpackEntity backpack = (BackpackEntity) e;
-            backpack.update();
-            if(backpack.isOpen() && !state.get(OPEN)){
-                world.setBlockState(pos, state.with(OPEN, true));
-            } else if (!backpack.isOpen() && state.get(OPEN)) {
-                world.setBlockState(pos, state.with(OPEN, false));
-            }
-        } else {
-            e.markInvalid();
-        }
-    }
+    
 
 }
