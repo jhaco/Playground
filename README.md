@@ -7,7 +7,7 @@
 
 |Mod|Progress|Task Update|
 |---|--------|------|
-|[Wearable Backpacks](https://www.curseforge.com/minecraft/mc-mods/wearable-backpacks)|20%|Successfully registered and rendered the backpack as a normal, non-functional in-game block and item. You can place, break, craft and drop it.|
+|[Wearable Backpacks](https://www.curseforge.com/minecraft/mc-mods/wearable-backpacks)|35%|The backpack can face different directions based on player position upon placement. Backpack has inventory, but no GUI yet; hoppers can pass items in and out of the backpack block.|
 
 #### Setup:
 * Install a preferred IDE and a Java Development Kit (JDK) for Java 8 or Java 11: https://adoptopenjdk.net/.
@@ -15,6 +15,11 @@
 ###### Personal note: the onsite tutorials are helpful but also outdated and scuffed. I might consider writing my own guide and posting on Github Pages to document my journey.
 
 ---
+
+Version 1.1:
+> Refactored code for server and client-side mod intializations. \
+> Backpack is now multi-directional; the block faces in different directions. Backpack is also brown. \
+> Implemented backpack inventory (no GUI); blocks that interact with storage can push items to and from the backpack.
 
 Version 1.0:
 > Refactored code into separate responsible packages to be initialized by main. \
