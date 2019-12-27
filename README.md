@@ -7,7 +7,7 @@
 
 |Mod|Progress|Task Update|
 |---|--------|------|
-|[Wearable Backpacks](https://www.curseforge.com/minecraft/mc-mods/wearable-backpacks)|35%|The backpack can face different directions based on player position upon placement. Backpack has inventory, but no GUI yet; hoppers can pass items in and out of the backpack block.|
+|[Wearable Backpacks](https://www.curseforge.com/minecraft/mc-mods/wearable-backpacks)|50%|Added CottonMC's LibGui library. The backpack is now a fully functional storage block complete with an inventory GUI. Now to figure out how to make it portable.|
 
 #### Setup:
 * Install a preferred IDE and a Java Development Kit (JDK) for Java 8 or Java 11: https://adoptopenjdk.net/.
@@ -15,6 +15,10 @@
 ###### Personal note: the onsite tutorials are helpful but also outdated and scuffed. I might consider writing my own guide and posting on Github Pages to document my journey. I also need to stop being lazy and push changed files one-by-one to keep track of individual changes.
 
 ---
+
+Version 1.2:
+> Added CottonMC's LibGui library for GUI handling.
+> Backpack inventory now has a GUI!!!
 
 Version 1.1:
 > Refactored code for server and client-side mod intializations. \
