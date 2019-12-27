@@ -16,16 +16,16 @@
 
 ---
 
-Version 1.2:
+Version 1.2: `12/27/2019`
 > Included CottonMC's LibGui library for GUI handling.
 > Backpack inventory now has a GUI!!!
 
-Version 1.1:
+Version 1.1: `12/26/2019`
 > Refactored code for server and client-side mod intializations. \
 > Backpack is now multi-directional; the block faces in different directions. Backpack is also brown. \
 > Added backpack inventory (no GUI); blocks that interact with storage can push items to and from the backpack.
 
-Version 1.0:
+Version 1.0: `12/24/2019`
 > Refactored code into separate responsible packages to be initialized by main. \
 > Registered/rendered the backpack as a non-functional, but craftable block. It's a blue backpack! \
 > Initial Fabric mod environment setup.
