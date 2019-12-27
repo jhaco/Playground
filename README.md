@@ -17,7 +17,7 @@
 ---
 
 Version 1.2:
-> Added CottonMC's LibGui library for GUI handling.
+> Included CottonMC's LibGui library for GUI handling.
 > Backpack inventory now has a GUI!!!
 
 Version 1.1:
