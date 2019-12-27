@@ -1,5 +1,8 @@
 {
 	"variants": {
-        "": { "model": "playground:block/backpack" }
+		"facing=north": { "model": "playground:block/backpack" },
+		"facing=east":  { "model": "playground:block/backpack", "y":  90},
+		"facing=south": { "model": "playground:block/backpack", "y": 180 },
+		"facing=west":  { "model": "playground:block/backpack", "y": 270 }
 	}
 }

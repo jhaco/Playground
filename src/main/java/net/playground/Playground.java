@@ -6,10 +6,9 @@ import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ItemStack;
 import net.minecraft.util.Identifier;
 
+import net.playground.registry.PlaygroundBlockEntities;
 import net.playground.registry.PlaygroundBlocks;
 import net.playground.registry.PlaygroundItems;
-
-import net.playground.client.PlaygroundColors;
 
 public class Playground implements ModInitializer {
 	public static final String MOD_ID = "playground";
@@ -22,8 +21,7 @@ public class Playground implements ModInitializer {
 	@Override
 	public void onInitialize() {
 		PlaygroundBlocks.init();
+		PlaygroundBlockEntities.init();
 		PlaygroundItems.init();
-		
-		PlaygroundColors.init();
 	}
 }

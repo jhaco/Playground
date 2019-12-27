@@ -18,13 +18,7 @@ public class PlaygroundBlocks {
     }
 
     public static void init() {
-        // BlockRenderLayerMap.INSTANCE.putBlock(BACKPACK, RenderLayer.getCutout());
-
-		// ColorProviderRegistry.BLOCK.register(new BlockColorProvider() {
-			// @Override
-			// public int getColor(BlockState state, BlockRenderView view, BlockPos pos, int tintIndex) {return 0x3495eb;}}, BACKPACK);
-
-		// ColorProviderRegistry.ITEM.register((itemStack, layer) -> {return 0x3495eb;}, BACKPACK);
+		
     }
 
     static <T extends Block> T register(String name, T block, Item.Settings settings) {
