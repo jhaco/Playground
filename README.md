@@ -8,6 +8,7 @@
 |Mod|Progress|Task Update|
 |---|--------|------|
 |[Wearable Backpacks](https://www.curseforge.com/minecraft/mc-mods/wearable-backpacks)|50%|Added CottonMC's LibGui library. The backpack is now a fully functional storage block complete with an inventory GUI. Now to figure out how to make it portable.|
+|[AbyssalCraft](https://www.curseforge.com/minecraft/mc-mods/abyssalcraft) Mobs|10%|Successfully registered/rendered: 1 hostile entity.|
 
 #### Setup:
 * Install a preferred IDE and a Java Development Kit (JDK) for Java 8 or Java 11: https://adoptopenjdk.net/.
@@ -15,6 +16,10 @@
 ###### Personal note: the onsite tutorials are helpful but also outdated and scuffed. I might consider writing my own guide and posting on Github Pages to document my journey. I also need to stop being lazy and push changed files one-by-one to keep track of individual changes.
 
 ---
+
+Version 1.3: `12/28/2019`
+> Included Mixin's library to inject entity spawn conditions. \
+> Fully registered an Abyssal Zombie - a hostile entity from AbyssalCraft - with custom sounds, drops, and spawn egg.
 
 Version 1.2: `12/27/2019`
 > Included CottonMC's LibGui library for GUI handling.
