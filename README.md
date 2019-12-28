@@ -1,6 +1,6 @@
 # Playground
 
-###### A 1.15.1 Fabric ModLoader port of features and items from older Minecraft mods.
+###### A 1.15.1 Fabric ModLoader custom port of features and items from older Minecraft mods.
 ###### The Playground is my personal [Fabric](https://fabricmc.net/) mod learning & development testing ground for Minecraft version 1.15.1. I will be using a pre-existing [project](https://github.com/fabric-community/the-hallow) by The Fabric Community as a template for organizing the project's components.
 
 #### Progress:
