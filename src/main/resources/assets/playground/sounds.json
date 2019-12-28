@@ -1,0 +1,31 @@
+{
+	"entity.abyssal_zombie.ambient": {
+		"category": "hostile",
+		"sounds": [
+            "playground:abyssal_zombie/idle1",
+            "playground:abyssal_zombie/idle2",
+            "playground:abyssal_zombie/idle3",
+            "playground:abyssal_zombie/idle4",
+            "playground:abyssal_zombie/idle5"
+		],
+		"subtitle": "subtitle.playground.abyssal_zombie.ambient"
+	},
+	"entity.abyssal_zombie.hurt": {
+		"category": "hostile",
+		"sounds": [
+            "playground:abyssal_zombie/hurt1",
+            "playground:abyssal_zombie/hurt2",
+            "playground:abyssal_zombie/hurt3",
+            "playground:abyssal_zombie/hurt4",
+            "playground:abyssal_zombie/hurt5"
+		],
+		"subtitle": "subtitle.playground:abyssal_zombie.hurt"
+	},
+	"entity.abyssal_zombie.death": {
+		"category": "hostile",
+		"sounds": [
+			"playground:abyssal_zombie/death"
+		],
+		"subtitle": "subtitle.playground:abyssal_zombie.death"
+	}
+}
