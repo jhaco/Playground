@@ -1,0 +1,14 @@
+{
+	"required": true,
+	"package": "net.playground.mixin",
+	"compatibilityLevel": "JAVA_8",
+	"mixins": [
+		"SpawnRestrictor"
+	],
+	"client": [
+		
+	],
+	"injectors": {
+		"defaultRequire": 1
+	}
+}

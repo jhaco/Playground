@@ -22,11 +22,11 @@
       "net.playground.Playground"
     ],
     "client": [
-	"net.playground.PlaygroundClient"
-	]
+			"net.playground.PlaygroundClient"
+		]
   },
   "mixins": [
-    
+      "playground.mixins.json"
   ],
 
   "depends": {

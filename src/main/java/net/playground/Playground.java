@@ -8,7 +8,9 @@ import net.minecraft.util.Identifier;
 
 import net.playground.registry.PlaygroundBlockEntities;
 import net.playground.registry.PlaygroundBlocks;
+import net.playground.registry.PlaygroundEntities;
 import net.playground.registry.PlaygroundItems;
+import net.playground.registry.PlaygroundSounds;
 
 public class Playground implements ModInitializer {
 	public static final String MOD_ID = "playground";
@@ -23,5 +25,8 @@ public class Playground implements ModInitializer {
 		PlaygroundBlocks.init();
 		PlaygroundBlockEntities.init();
 		PlaygroundItems.init();
+
+		PlaygroundEntities.init();
+		PlaygroundSounds.init();
 	}
 }
