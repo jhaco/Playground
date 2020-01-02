@@ -19,7 +19,7 @@
 
 Version 1.4: `01/01/2020`
 > Renamed util folder to api. \
-> Fully registered 3 Shadow mobs - hostile AbyssalCraft entities - with custom models, sounds, drops, spawn egg and AI. \
+> Fully registered 3 Shadow mobs - hostile AbyssalCraft entities - with custom models, sounds, drops, egg and AI. \
 > The Shadows give chase when you look at their face.
 
 Version 1.3: `12/28/2019`
