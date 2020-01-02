@@ -17,9 +17,9 @@ public class AbyssalZombieEntity extends ZombieEntity {
 	protected void initAttributes() {
 		super.initAttributes();
 		this.getAttributeInstance(EntityAttributes.MOVEMENT_SPEED).setBaseValue(0.2D);
-		this.getAttributeInstance(EntityAttributes.ATTACK_DAMAGE).setBaseValue(5.0D);
-		this.getAttributeInstance(EntityAttributes.ARMOR).setBaseValue(3D);
-		this.getAttributeInstance(EntityAttributes.MAX_HEALTH).setBaseValue(40.0D);
+		this.getAttributeInstance(EntityAttributes.ATTACK_DAMAGE).setBaseValue(10.0D);
+		this.getAttributeInstance(EntityAttributes.ARMOR).setBaseValue(3.0D);
+		this.getAttributeInstance(EntityAttributes.MAX_HEALTH).setBaseValue(48.0D);
     }
 
     @Override

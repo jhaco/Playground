@@ -16,9 +16,9 @@ import net.minecraft.util.DefaultedList;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.util.math.Box;
 import net.minecraft.world.World;
-import net.playground.block.Backpack;
+import net.playground.block.BackpackBlock;
 import net.playground.registry.PlaygroundBlockEntities;
-import net.playground.util.ImplementedInventory;
+import net.playground.api.ImplementedInventory;
 
 public class BackpackEntity extends BlockEntity implements ImplementedInventory {
     private final DefaultedList<ItemStack> inv = DefaultedList.ofSize(27, ItemStack.EMPTY);
@@ -107,7 +107,7 @@ public class BackpackEntity extends BlockEntity implements ImplementedInventory 
             this.scheduleUpdate();
         } else {
             BlockState state = this.getCachedState();
-            if (!(state.getBlock() instanceof Backpack)) {
+            if (!(state.getBlock() instanceof BackpackBlock)) {
                 this.markInvalid();
                 return;
             }

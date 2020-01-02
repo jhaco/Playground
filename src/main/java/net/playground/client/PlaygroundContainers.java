@@ -12,7 +12,6 @@ public class PlaygroundContainers {
         ScreenProviderRegistry.INSTANCE.registerFactory(Playground.id("backpack"), (syncId, id, player, buf) -> {
             return new CottonInventoryScreen<BackpackController>(new BackpackController(syncId, player.inventory, BlockContext.create(player.world, buf.readBlockPos())), player);
         });
-
         ContainerProviderRegistry.INSTANCE.registerFactory(Playground.id("backpack"), (syncId, id, player, buf) -> {
             return new BackpackController(syncId, player.inventory, BlockContext.create(player.world, buf.readBlockPos()));
         });

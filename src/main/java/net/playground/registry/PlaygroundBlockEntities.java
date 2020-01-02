@@ -11,11 +11,7 @@ import net.playground.block.entity.BackpackEntity;
 
 public class PlaygroundBlockEntities {
 
-    public static final BlockEntityType<BackpackEntity> BACKPACK = register(
-		"backpack",
-		BackpackEntity::new,
-		PlaygroundBlocks.BACKPACK
-	);
+    public static final BlockEntityType<BackpackEntity> BACKPACK = register("backpack", BackpackEntity::new, PlaygroundBlocks.BACKPACK);
     
     private PlaygroundBlockEntities() {
 		

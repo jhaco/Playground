@@ -27,5 +27,21 @@
 			"playground:abyssal_zombie/death"
 		],
 		"subtitle": "subtitle.playground:abyssal_zombie.death"
+	},
+	"entity.shadow_creature.hurt": {
+		"category": "hostile",
+		"sounds": [
+			"playground:shadow_creature/hurt1",
+			"playground:shadow_creature/hurt2",
+			"playground:shadow_creature/hurt3"
+		],
+		"subtitle": "subtitle.playground:shadow_creature.hurt"
+	},
+	"entity.shadow_creature.death": {
+		"category": "hostile",
+		"sounds": [
+			"playground:shadow_creature/death"
+		],
+		"subtitle": "subtitle.playground:shadow_creature.death"
 	}
 }
