@@ -6,7 +6,8 @@
 		"SpawnRestrictor"
 	],
 	"client": [
-		
+		"MixinItemEntity",
+      	"MixinItemEntityRenderer"
 	],
 	"injectors": {
 		"defaultRequire": 1
