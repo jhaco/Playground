@@ -9,6 +9,7 @@ import net.minecraft.util.Identifier;
 import net.playground.registry.PlaygroundBlockEntities;
 import net.playground.registry.PlaygroundBlocks;
 import net.playground.registry.PlaygroundEntities;
+import net.playground.registry.PlaygroundEventHandler;
 import net.playground.registry.PlaygroundItems;
 import net.playground.registry.PlaygroundSounds;
 
@@ -28,5 +29,7 @@ public class Playground implements ModInitializer {
 
 		PlaygroundEntities.init();
 		PlaygroundSounds.init();
-	}
+
+		PlaygroundEventHandler.init();
+	}	
 }
