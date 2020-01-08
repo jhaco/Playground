@@ -10,6 +10,14 @@
 |[Wearable Backpacks](https://www.curseforge.com/minecraft/mc-mods/wearable-backpacks)|50%|Added CottonMC's LibGui library. The backpack is now a fully functional storage block complete with an inventory GUI. Now to figure out how to make it portable.|
 |[AbyssalCraft](https://www.curseforge.com/minecraft/mc-mods/abyssalcraft) Mobs|30%|Successfully registered/rendered: 4 hostile entities.|
 
+#### Other Features:
+
+###### Random features implemented for fun or to test some code.
+
+|Feature|Description|
+|-------|-----------|
+|Perpetual Rainfall|Added code so the overworld always rain. Only turns off by using `/weather clear` cheat.|
+
 #### Setup:
 * Install a preferred IDE and a Java Development Kit (JDK) for Java 8 or Java 11: https://adoptopenjdk.net/.
 * Fabric mod development environment setup instructions can be found here: https://fabricmc.net/wiki/tutorial:setup.
