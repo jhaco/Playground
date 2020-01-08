@@ -9,6 +9,7 @@
 |---|--------|------|
 |[Wearable Backpacks](https://www.curseforge.com/minecraft/mc-mods/wearable-backpacks)|50%|Added CottonMC's LibGui library. The backpack is now a fully functional storage block complete with an inventory GUI. Now to figure out how to make it portable.|
 |[AbyssalCraft](https://www.curseforge.com/minecraft/mc-mods/abyssalcraft) Mobs|30%|Successfully registered/rendered: 4 hostile entities.|
+|[BetterDroppedItems](https://www.curseforge.com/minecraft/mc-mods/better-dropped-items)|100%|Successfully translated from 1.14 to 1.15. Such a pain digging through and comparing source code, but it was worth!|
 
 #### Other Features:
 
@@ -24,6 +25,10 @@
 ###### Personal note: the onsite tutorials are helpful but also outdated and scuffed. I might consider writing my own guide and posting on Github Pages to document my journey. I also need to stop being lazy and push changed files one-by-one to keep track of individual changes.
 
 ---
+
+Version 2.0: `01/08/2020`
+> Fully translated Draylar's BetterDroppedItems from mc1.14 to mc1.15. Whew! \
+> Added a feature that makes the Overworld constantly rain.
 
 Version 1.4: `01/01/2020`
 > Renamed util folder to api. \
