@@ -1,0 +1,17 @@
+{
+    "itemGroup.playground.group": "Playground",
+    "block.playground.backpack": "Backpack",
+    "item.playground.abyssal_zombie_spawn_egg": "Abyssal Zombie Spawn Egg",
+    "item.playground.shadow_beast_spawn_egg": "Shadow Beast Spawn Egg",
+    "item.playground.shadow_creature_spawn_egg": "Shadow Creature Spawn Egg",
+    "item.playground.shadow_monster_spawn_egg": "Shadow Monster Spawn Egg",
+    "entity.playground.abyssal_zombie": "Abyssal Zombie",
+    "entity.playground.shadow_beast": "Shadow Beast",
+    "entity.playground.shadow_creature": "Shadow Creature",
+    "entity.playground.shadow_monster": "Shadow Monster",
+    "subtitle.playground.abyssal_zombie.ambient": "Abyssal gurgling",
+    "subtitle.playground.abyssal_zombie.hurt": "Abyssal pain",
+    "subtitle.playground.abyssal_zombie.death": "Abyssal despair",
+    "subtitle.playground.shadow_creature.hurt": "Shadow hiss",
+    "subtitle.playground.shadow_creature.death": "Shadow dissipates"
+}
