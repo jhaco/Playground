@@ -9,7 +9,7 @@
 |---|--------|------|
 |[Wearable Backpacks](https://www.curseforge.com/minecraft/mc-mods/wearable-backpacks)|50%|Added CottonMC's LibGui library. The backpack is now a fully functional storage block complete with an inventory GUI. Now to figure out how to make it portable.|
 |[AbyssalCraft](https://www.curseforge.com/minecraft/mc-mods/abyssalcraft) Mobs|30%|Successfully registered/rendered: 4 hostile entities.|
-|[BetterDroppedItems](https://www.curseforge.com/minecraft/mc-mods/better-dropped-items)|100%|Successfully translated from 1.14 to 1.15. Such a pain digging through and comparing source code, but it was worth!|
+|[BetterDroppedItems](https://www.curseforge.com/minecraft/mc-mods/better-dropped-items)|100%|Successfully translated from 1.14 to 1.15.|
 
 #### Other Features:
 
