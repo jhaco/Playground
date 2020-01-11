@@ -33,7 +33,7 @@
 
 </details>
 
-<details open>
+<details close>
   <summary>01/08/2020 Version 2.0</summary>
   
   + Fully translated Draylar's BetterDroppedItems from mc1.14 to mc1.15. Whew!
@@ -41,7 +41,7 @@
   
 </details>
 
-<details open>
+<details close>
   <summary>01/01/2020 Version 1.4</summary>
   
   + Renamed util folder to api.
@@ -50,7 +50,7 @@
 
 </details>
 
-<details open>
+<details close>
   <summary>12/28/2019 Version 1.3</summary>
   
   + The Shadows give chase when you look at their face.
@@ -59,7 +59,7 @@
 
 </details>
 
-<details open>
+<details close>
   <summary>12/27/2019 Version 1.2</summary>
   
   + Included CottonMC's LibGui library for GUI handling.
@@ -67,7 +67,7 @@
 
 </details>
 
-<details open>
+<details close>
   <summary>12/26/2019 Version 1.1</summary>
 
   + Fully registered an Abyssal Zombie - a hostile entity from AbyssalCraft - with custom sounds, drops, and spawn egg.
@@ -79,7 +79,7 @@
 
 </details>
 
-<details open>
+<details close>
   <summary>12/24/2019 Version 1.0</summary>
 
   + Added backpack inventory (no GUI); blocks that interact with storage can push items to and from the backpack.
