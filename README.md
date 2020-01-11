@@ -70,9 +70,6 @@
 <details close>
   <summary>12/26/2019 Version 1.1</summary>
 
-  + Fully registered an Abyssal Zombie - a hostile entity from AbyssalCraft - with custom sounds, drops, and spawn egg.
-  + Included CottonMC's LibGui library for GUI handling.
-  + Backpack inventory now has a GUI!!!
   + Refactored code for server and client-side mod intializations.
   + Backpack is now multi-directional; the block faces in different directions. Backpack is also brown.
   + Added backpack inventory (no GUI); blocks that interact with storage can push items to and from the backpack.
@@ -82,7 +79,6 @@
 <details close>
   <summary>12/24/2019 Version 1.0</summary>
 
-  + Added backpack inventory (no GUI); blocks that interact with storage can push items to and from the backpack.
   + Refactored code into separate responsible packages to be initialized by main.
   + Registered/rendered the backpack as a non-functional, but craftable block. It's a blue backpack!
   + Initial Fabric mod environment setup.
