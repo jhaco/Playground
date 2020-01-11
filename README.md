@@ -20,7 +20,7 @@
 |Perpetual Rainfall|Added code so the overworld always rain. Only turns off by using `/weather clear` cheat.|
 
 #### Setup:
-* Install a preferred IDE and a Java Development Kit (JDK) for Java 8 or Java 11: https://adoptopenjdk.net/.
+* Install a preferred IDE and a Java Development Kit (JDK) for Java 8 (preferred) or Java 11: https://adoptopenjdk.net/.
 * Fabric mod development environment setup instructions can be found here: https://fabricmc.net/wiki/tutorial:setup.
 ###### Personal note: the onsite tutorials are helpful but also outdated and scuffed. I might consider writing my own guide and posting on Github Pages to document my journey. I also need to stop being lazy and push changed files one-by-one to keep track of individual changes.
 
