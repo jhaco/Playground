@@ -26,24 +26,65 @@
 
 ---
 
-Version 2.1: `01/10/2020`
-> Added translation so descriptions appear normal in-game.
+<details open>
+  <summary>01/10/2020 Version 2.1</summary>
+  
+  + Added translation so descriptions appear normal in-game.
 
-Version 2.0: `01/08/2020`
-> Fully translated Draylar's BetterDroppedItems from mc1.14 to mc1.15. Whew! \
-> Added a feature that makes the Overworld constantly rain.
+</details>
 
-Version 1.4: `12/24/2019 - 01/01/2020`
-> Renamed util folder to api. \
-> Fully registered 3 Shadow mobs - hostile AbyssalCraft entities - with custom models, sounds, drops, egg and AI. \
-> The Shadows give chase when you look at their face. \
-> Included Mixin's library to inject entity spawn conditions. \
-> Fully registered an Abyssal Zombie - a hostile entity from AbyssalCraft - with custom sounds, drops, and spawn egg. \
-> Included CottonMC's LibGui library for GUI handling. \
-> Backpack inventory now has a GUI!!! \
-> Refactored code for server and client-side mod intializations. \
-> Backpack is now multi-directional; the block faces in different directions. Backpack is also brown. \
-> Added backpack inventory (no GUI); blocks that interact with storage can push items to and from the backpack. \ 
-> Refactored code into separate responsible packages to be initialized by main. \
-> Registered/rendered the backpack as a non-functional, but craftable block. It's a blue backpack! \
-> Initial Fabric mod environment setup.
+<details open>
+  <summary>01/08/2020 Version 2.0</summary>
+  
+  + Fully translated Draylar's BetterDroppedItems from mc1.14 to mc1.15. Whew!
+  + Added a feature that makes the Overworld constantly rain.
+  
+</details>
+
+<details open>
+  <summary>01/01/2020 Version 1.4</summary>
+  
+  + Renamed util folder to api.
+  + Fully registered 3 Shadow mobs - hostile AbyssalCraft entities - with custom models, sounds, drops, egg and AI.
+  + The Shadows give chase when you look at their face.
+
+</details>
+
+<details open>
+  <summary>12/28/2019 Version 1.3</summary>
+  
+  + The Shadows give chase when you look at their face.
+  + Included Mixin's library to inject entity spawn conditions.
+  + Fully registered an Abyssal Zombie - a hostile entity from AbyssalCraft - with custom sounds, drops, and spawn egg.
+
+</details>
+
+<details open>
+  <summary>12/27/2019 Version 1.2</summary>
+  
+  + Included CottonMC's LibGui library for GUI handling.
+  + Backpack inventory now has a GUI!!!
+
+</details>
+
+<details open>
+  <summary>12/26/2019 Version 1.1</summary>
+
+  + Fully registered an Abyssal Zombie - a hostile entity from AbyssalCraft - with custom sounds, drops, and spawn egg.
+  + Included CottonMC's LibGui library for GUI handling.
+  + Backpack inventory now has a GUI!!!
+  + Refactored code for server and client-side mod intializations.
+  + Backpack is now multi-directional; the block faces in different directions. Backpack is also brown.
+  + Added backpack inventory (no GUI); blocks that interact with storage can push items to and from the backpack.
+
+</details>
+
+<details open>
+  <summary>12/24/2019 Version 1.0</summary>
+
+  + Added backpack inventory (no GUI); blocks that interact with storage can push items to and from the backpack.
+  + Refactored code into separate responsible packages to be initialized by main.
+  + Registered/rendered the backpack as a non-functional, but craftable block. It's a blue backpack!
+  + Initial Fabric mod environment setup.
+
+</details>
